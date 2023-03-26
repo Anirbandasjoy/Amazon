@@ -32,16 +32,16 @@ const DesNavbar = () => {
         
       </div>
    
-      <div className="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto sm:hidden">
+      <div className="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto sm:hidden ml-20">
         <div className="text-sm lg:flex-grow">
 
-          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white ml-7">
             Shop <FaShoppingBag className="inline-block ml-1" />
           </a>
-          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white ml-7">
             Home <FaHome className="inline-block ml-1" />
           </a>
-          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white ml-7">
             Account <FaUser className="inline-block ml-1" />
           </a>
           
