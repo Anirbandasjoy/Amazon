@@ -17,7 +17,7 @@ const DesNavbar = () => {
 
       <div className="mt-1 lg:mt-0 ml-3 mr-8">
           <div className="relative text-gray-300">
-            <input type="search" name="search" placeholder="Search" className="bg-gray-500 h-9 w-28 px-5 pr-10 rounded-full text-xs focus:outline-none focus:bg-white focus:text-gray-900" />
+            <input type="search" name="search" placeholder="Search" className="bg-gray-500 h-9 w-28 sm:h-10 sm:w-44 px-5 pr-10 rounded-full text-xs focus:outline-none focus:bg-white focus:text-gray-900" />
             <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
               <FaSearch className="text-gray-500" />
             </button>
