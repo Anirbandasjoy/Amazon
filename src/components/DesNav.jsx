@@ -15,7 +15,7 @@ const DesNavbar = () => {
         <span className="font-semibold text-xl tracking-tight ml-2">ADJ LTD</span>
       </div>
 
-      <div className="mt-1 lg:mt-0">
+      <div className="mt-1 lg:mt-0 ml-3 mr-5">
           <div className="relative text-gray-300">
             <input type="search" name="search" placeholder="Search" className="bg-gray-500 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none focus:bg-white focus:text-gray-900" />
             <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
@@ -51,9 +51,9 @@ const DesNavbar = () => {
             Cart <FaShoppingCart className="inline-block ml-1" />
           </a>
         </div>
-        <div className="mt-4 lg:mt-0">
-          <div className="relative text-gray-600">
-            <input type="search" name="search" placeholder="Search" className="bg-gray-800 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none focus:bg-white focus:text-gray-900" />
+        <div className="mt-4 lg:mt-0 block sm:hidden">
+          <div className="relative dark:bg-gray-400 text-gray-600">
+            <input type="search" name="search" placeholder="Search" className="bg-gray-800  h-10 px-5 pr-10 rounded-full text-sm focus:outline-none focus:bg-white focus:text-gray-900" />
             <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
               <FaSearch className="text-gray-500" />
             </button>
