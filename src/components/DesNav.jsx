@@ -15,9 +15,9 @@ const DesNavbar = () => {
         <span className="font-semibold text-xl tracking-tight ml-2">ADJ LTD</span>
       </div>
 
-      <div className="mt-1 lg:mt-0 ml-3 mr-5">
+      <div className="mt-1 lg:mt-0 ml-3 mr-8">
           <div className="relative text-gray-300">
-            <input type="search" name="search" placeholder="Search" className="bg-gray-500 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none focus:bg-white focus:text-gray-900" />
+            <input type="search" name="search" placeholder="Search" className="bg-gray-500 h-9 w-28 px-5 pr-10 rounded-full text-xs focus:outline-none focus:bg-white focus:text-gray-900" />
             <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
               <FaSearch className="text-gray-500" />
             </button>
@@ -32,7 +32,7 @@ const DesNavbar = () => {
         
       </div>
    
-      <div className="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto sm:hidden ml-20">
+      <div className="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto sm:hidden ml-10">
         <div className="text-sm lg:flex-grow">
 
           <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white ml-7">
